@@ -3,6 +3,7 @@
 ### Airbnb Vienna
 
 #### Short description and data sources
+
 The project's aim is to extract relevant insights about Airbnb Vienna as to help potential landlords increase their competitive advantage.  
 
 The data used within this project was web-scraped by [Inside Airbnb](http://insideairbnb.com/get-the-data.html) on 17 March 2020. Due to the large size of the folder (aprox. 1GB), the data I have used, along with additional spreadsheets) can be found and dowloaded using [this link](https://drive.google.com/drive/folders/1wZ5kNz-eCJ24Qcs_QpyFSr98THjJRjvG?usp=sharing). 
@@ -10,6 +11,7 @@ The data used within this project was web-scraped by [Inside Airbnb](http://insi
 The thesis' aim was to extract relevant insights about Airbnb Vienna as to help potential landlords increase their competitive advantage. The property prices were predicted using XGBRegressor and a slight enhancement of the results was achieved by hyperparameter optimization. This choice of modelling gave insights on the most important features regarding the price of the properties listed.
 Furthermore, Airbnb Vienna reviews were assigned a sentiment polarity score, using VADER (NLTK package), as to see which are the most frequently used words in reviews having a negative score, compared to those with a general positive sentiment, through word clouds.
 
+#### Notebooks short description
 
 This project has three main topics, based on three different datasets.
 
