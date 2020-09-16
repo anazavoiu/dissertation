@@ -36,7 +36,7 @@ The *2.1.NLTK_positive_negative_scores* notebook contains the following steps:
  Reviews with more than 70% words in english were kept, almost 66% of the initial dataset, meaning 309.110 reviews. 
  In the *2.3.Word_clouds* notebook, the english reviews were split into positive, negative and neutral reviews, based on the compound metric. The resulting wordclouds are: 
  
-![Positive Reviews Wordcloud](https://drive.google.com/file/d/1NfRYDNGU679prOG3F-JToQhP19l-DH-W/view?usp=sharing)
+![Positive Reviews Wordcloud](https://github.com/anazavoiu/disertation/blob/master/WordCloud300-positive.png)
  
 
 
