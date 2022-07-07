@@ -15,7 +15,7 @@ Furthermore, Airbnb Vienna reviews were assigned a sentiment polarity score, usi
 
 This project has three main topics, based on three different datasets.
 
-1. The *listings_17_03_2020.csv* dataset, contains the characteristics of all listings that were live at the scraping date. Each row belongs to a listing (13,224 liostings), and the columns provide information about the characteristics of each listing (106 features);
+1. The *listings_17_03_2020.csv* dataset, contains the characteristics of all listings that were live at the scraping date. Each row belongs to a listing (13,224 listings), and the columns provide information about the characteristics of each listing (106 features);
 
 The *1.1.Vienna_Listings_17_03_2020_PreModelling* notebook contains data cleaning/processing, EDA (Explanatory Data Analysis) and feature engineering steps. The resulting dataset, before dummy transformations, contains 52 features and 11996 listings. The dataset resulted after the dummy transformations was exported as *transformed_listings.csv*.
 The *1.2.Vienna_Listings_17_03_2020_XGBRegressor_HPM* takes as input the *transformed_listings.csv* dataset. This notebook contains the multicollinearity assessment, the standardization and normalization of features and the application fo the models.
